@@ -1,0 +1,105 @@
+Explain the significance of Python keywords and provide examples of five keywords.
+
+1. The five Python keywords and their significance, along with examples:
+
+    A.def: The def keyword is used to define a function.
+        Example:    def greet(name):
+                    print(f"Hello, {name}!")
+                    greet("Alice") 
+                    # Output: Hello, Alice!
+
+    B. if, elif, else: These keywords are used for conditional statements.
+        Example:    age = 25
+                    if age < 18:
+                        print("You are a minor")
+                    elif age >= 18 and age < 65:
+                        print("You are an adult")
+                    else:
+                        print("You are a senior citizen")
+                    # Output: You are an adult
+
+    C. for: The for keyword is used to create a loop.
+        Example:    fruits = ["apple", "banana", "cherry"]
+                    for fruit in fruits:
+                        print(fruit)
+                    # Output:
+                    # apple
+                    # banana
+                    # cherry
+
+    D. class: The class keyword is used to define a class.
+        Example:    class Car:
+                    def __init__(self, make, model):
+                        self.make = make
+                        self.model = model
+                
+                    def display_info(self):
+                        print(f"This is a {self.make} {self.model}.")
+                
+                    my_car = Car("Range Rover", "Phantom")
+                    my_car.display_info()  
+                    # Output: This is a Range Rover Phantom.
+
+    E. while: The while keyword is used to create a loop that executes as long as the condition is true.
+        Example:    count = 0
+                    while count < 3:
+                        print(count)
+                        count += 1
+                    # Output: 
+                    # 0
+                    # 1
+                    # 2
+
+2. Describe the rules for defining identifiers in Python and provide an example.
+
+    In Python, identifiers are names used to identify variables, functions, classes, modules, or other objects in the code.
+    The Rules for Defining identifiers in Python are:
+
+    A. Naming Convention: Python follows a specific naming convention for identifiers. Identifiers should be written in lowercase,
+                          two words should be separated by underscores. For example, my_var, cal_sum.
+    B. First Character: The First Character of an identifier must be a letter or an underscore. It cannot start with a digit.
+    C. Reserved Keywords: Python has a set of reserved keywords that cannot be used as identifiers. For Example, def, if, elif, while, for.
+
+3. What are comments in Python, and why are they useful? Provide an example.
+   
+    Comments in Python: Comments are the lines in the code that are ignored by the interpreter during the execution of the program.
+    The Comments are Useful because: 
+        A. Enhance code readability
+        B. Explaining code to other
+        C. Understanding code if studied after some time
+        D. Sharing code with fellow developers
+        E. Collaborating with multiple people.
+
+    Example:    # This is a single-line comment
+                print("Hello, World!")  # This is also a single-line comment
+                
+                """
+                This is a multi-line comment.
+                It spans multiple lines and can be used
+                to provide detailed explanations or documentation.
+                """
+                print("This is a statement after the multi-line comment.")
+
+4. Why is proper indentation important in Python?
+
+    Proper Indentation in Python: Proper indentation is crucial in Python because it is used to define the structure of the code. In Python, indentation is a fundamental part of                                    the language's syntax and is used to denote code blocks. Proper indentation makes the code easier to read and understand. It visually separates                                     different levels of code blocks, such as loops, conditional statements, and function definitions.
+
+5. What happens if indentation is incorrect in Python? 
+
+     Indentation is a very important concept of Python because without proper indentation the Python code will
+     throw an IndentationError and the code will not get compiled.
+
+6. Differentiate between expression and statement in Python with examples.
+
+    In Python, expressions can be used as part of statements, but all statements are not expressions. For example, statement x = 2 + 3 
+    consists of the expression 2 + 3 on the right-hand side, but the entire statement is not an expression because it modifies the value of the variable x.
+        Expressions are executed to produce a value, while statements are executed to perform specific tasks or operations.
+
+
+
+
+
+
+
+
+
